@@ -2,7 +2,7 @@ body{
     background-color: #1C1C1C;
     color: #FFFF00;
 }
-#MainBox{
+.MainBox{
   display: block;
   border: 1px solid black;
   text-align: left;
