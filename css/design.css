@@ -1,20 +1,20 @@
 body{
     background-color: #1C1C1C;
-    color: #FFFF00;
+    color: #00D1D4;
 }
 .MainBox{
   display: block;
   border: 1px solid black;
   text-align: left;
   padding:5px;
-  background-color: #FFFF00;
+  background-color: #00D1D4;
 }
 .SectionBox{
   display: block;
   border: 1px solid black;
   text-align: left;
   padding:5px;
-  background-color: #FFFF00;
+  background-color: #00D1D4
   color: black;
 }
 .TitleBox{
