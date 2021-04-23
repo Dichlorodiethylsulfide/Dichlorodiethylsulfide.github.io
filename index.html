@@ -1,5 +1,6 @@
 <head>
   <link rel="stylesheet" type="text/css" href="css/design.css">
+  <script type="text/javascript" src="js/website.js"></script>
 </head>
 <body>
   <title class="TitleBox">Riki Lowe's Home Page</title>
@@ -7,27 +8,41 @@
   <div class="MainBox"></div>
   <h3>Here you'll find everything you might need to know about myself, my projects and my ambitions</h3>
   <div class="MainBox">
-    <a class="reference">Main Page</a><br>
     <a class="reference">Project List</a>
     <div class="tab">
-      <a class="reference" href="./content/projects/AA/main_page.html">Automated Abyss</a><br>
-      <a class="reference" href="#">Space Invaders</a><br>
-      <a class="reference" href="#">Perlin Horror</a><br>
-      <a class="reference" href="#">Reflective In Perspective</a><br>
-      <a class="reference" href="#">AI Procedural Generation</a><br>
-      <a class="reference" href="#">Password Manager</a><br>
-      <a class="reference" href="#">YetAnotherGameEngine (YAGE v0.1)</a><br>
-      <a class="reference" href="#">Virtual Machine Python Handler</a><br>
-      <a class="reference" href="#">Polybius</a><br>
-      <a class="reference" href="#">Shopping Helper (Substantial Piece)</a><br>
-      <a class="reference" href="#">Artwork Gallery (Artstation)</a><br>
+      <a class="reference">Games</a>
+      <div class="tab">
+        <a class="reference" href="content/projects/AA/main_page.html">Automated Abyss</a><br>
+        <a class="reference" href="#">Space Invaders</a><br>
+        <a class="reference" href="#">Perlin Horror</a><br>
+        <a class="reference" href="#">Polybius</a><br>
+      </div>
+      <a class="reference">Visual Novels</a>
+      <div class="tab">
+        <a class="reference" href="#">Reflective In Perspective</a><br>
+      </div>
+      <a class="reference">Applications</a>
+      <div class="tab">
+        <a class="reference" href="#">AI Procedural Generation</a><br>
+        <a class="reference" href="#">Password Manager</a><br>
+        <a class="reference" href="#">YetAnotherGameEngine (YAGE v0.1)</a><br>
+        <a class="reference" href="#">Virtual Machine Python Handler</a><br>
+        <a class="reference" href="#">Shopping Helper (Substantial Piece)</a><br>
+      </div>
+      <a class="reference">Artwork</a>
+      <div class="tab">
+        <a class="reference" href="#">Artstation Gallery</a><br>
+      </div>
     </div>
   </div>
   <br>
   <div class="MainBox">
-      <a class="reference" href="#">Contact Info</a>
-      <div class="tab">
-
+      <a class="reference">Contact Info</a>
+      <div id="Contact" class="tab">
+        <a class="reference" href="https://dichlorodiethylsulfide.github.io/">My Github</a><br>
+        <a class="reference" href="https://dichlorodiethylsulfide.itch.io/">My Itch.io</a><br>
+        <a class="reference" href="https://wanderingvirus.artstation.com/">My Artstation</a><br>
+        <button class="reference" onclick="getContactData()">Contact Information</button><br>
       </div>
   </div>
 </body>
