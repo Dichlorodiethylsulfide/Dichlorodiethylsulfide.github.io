@@ -3,46 +3,109 @@
   <script type="text/javascript" src="js/website.js"></script>
 </head>
 <body>
-  <title class="TitleBox">Riki Lowe's Home Page</title>
-  <h1>Welcome to my portfolio website.</h1>
-  <div class="MainBox"></div>
-  <h3>Here you'll find everything you might need to know about myself, my projects and my ambitions</h3>
+  <title class="TitleBox BackgroundText">Riki Lowe's Home Page</title>
+  <h1 class="BackgroundText">Welcome to my portfolio website.</h1>
+  <div class="MainBox referenc"></div>
+  <h3 class="BackgroundText">Here you'll find everything you might need to know about myself, my projects and my ambitions</h3>
   <div class="MainBox">
-    <a class="reference">Project List</a>
+    <a>Project List</a>
     <div class="tab">
-      <a class="reference">Games</a>
+      <a href="#Games">Games</a>
       <div class="tab">
-        <a class="reference" href="content/projects/AA/main_page.html">Automated Abyss</a><br>
-        <a class="reference" href="#">Space Invaders</a><br>
-        <a class="reference" href="#">Perlin Horror</a><br>
-        <a class="reference" href="#">Polybius</a><br>
+        <a href="content/projects/AA/main_page.html">Automated Abyss</a><br>
+        <a href="#">Space Invaders</a><br>
+        <a href="#">Perlin Horror</a><br>
+        <a href="#">Polybius</a><br>
       </div>
-      <a class="reference">Visual Novels</a>
+      <a href="#VisualNovels">Visual Novels</a>
       <div class="tab">
-        <a class="reference" href="#">Reflective In Perspective</a><br>
+        <a href="#">Reflective In Perspective</a><br>
       </div>
-      <a class="reference">Applications</a>
+      <a href="#Applications">Applications</a>
       <div class="tab">
-        <a class="reference" href="#">AI Procedural Generation</a><br>
-        <a class="reference" href="#">Password Manager</a><br>
-        <a class="reference" href="#">YetAnotherGameEngine (YAGE v0.1)</a><br>
-        <a class="reference" href="#">Virtual Machine Python Handler</a><br>
-        <a class="reference" href="#">Shopping Helper (Substantial Piece)</a><br>
+        <a href="#">AI Procedural Generation</a><br>
+        <a href="#">Password Manager</a><br>
+        <a href="#">YetAnotherGameEngine</a><br>
+        <a href="#">Virtual Machine Python Handler</a><br>
       </div>
-      <a class="reference">Artwork</a>
+      <a href="#Artwork">Artwork</a>
       <div class="tab">
-        <a class="reference" href="#">Artstation Gallery</a><br>
+        <a href="#">Artstation Gallery</a><br>
+      </div>
+      <a href="#SubstantialPiece">Substantial Piece</a>
+      <div class="tab">
+        <a href="#">Shopping Helper</a><br>
       </div>
     </div>
   </div>
   <br>
   <div class="MainBox">
-      <a class="reference">Contact Info</a>
+      <a Contact Info</a>
       <div id="Contact" class="tab">
-        <a class="reference" href="https://dichlorodiethylsulfide.github.io/">My Github</a><br>
-        <a class="reference" href="https://dichlorodiethylsulfide.itch.io/">My Itch.io</a><br>
-        <a class="reference" href="https://wanderingvirus.artstation.com/">My Artstation</a><br>
-        <button class="reference" onclick="getContactData()">Contact Information</button><br>
+        <a href="https://dichlorodiethylsulfide.github.io/">My Github</a><br>
+        <a href="https://dichlorodiethylsulfide.itch.io/">My Itch.io</a><br>
+        <a href="https://wanderingvirus.artstation.com/">My Artstation</a><br><br>
+        <button onclick="getContactData()">Contact Information (Email)</button><br>
       </div>
   </div>
+  <h2 class="BackgroundText">My Projects - Quick Summaries</h2>
+  <h3 id="Games" class="BackgroundText">Games</h3>
+  <div class="MainBox">
+    <div class="Box">
+      <h3><a href="content/projects/AA/main_page.html">Automated Abyss</a></h3>
+      <p>
+        3D Strategy Tower Defense<br><br>
+        Based on the operations and functions of a computer, this game uses Assembly x86 style commands to control buildings and towers aimed at defending the main base, the pulsing Clock, from invading attackers.
+      </p>
+    </div>
+    <br>
+  </div>
+
+  <h3 id="VisualNovels" class="BackgroundText">Visual Novels</h3>
+  <div class="MainBox">
+
+  </div>
+
+  <h3 id="Applications" class="BackgroundText">Applications</h3>
+  <div class="MainBox">
+
+  </div>
+
+  <h3 id="Artwork" class="BackgroundText">Artwork</h3>
+  <div class="MainBox">
+
+  </div>
+  <h3 id="SubstantialPiece" class="BackgroundText">Substantial Piece</h3>
+  <div class="MainBox">
+
+  </div>
+  <!---
+  <a Project List</a>
+  <div class="tab">
+    <a Games</a>
+    <div class="tab">
+      <a href="content/projects/AA/main_page.html">Automated Abyss</a><br>
+      <a href="#">Space Invaders</a><br>
+      <a href="#">Perlin Horror</a><br>
+      <a href="#">Polybius</a><br>
+    </div>
+    <a Visual Novels</a>
+    <div class="tab">
+      <a href="#">Reflective In Perspective</a><br>
+    </div>
+    <a Applications</a>
+    <div class="tab">
+      <a href="#">AI Procedural Generation</a><br>
+      <a href="#">Password Manager</a><br>
+      <a href="#">YetAnotherGameEngine (YAGE v0.1)</a><br>
+      <a href="#">Virtual Machine Python Handler</a><br>
+      <a href="#">Shopping Helper (Substantial Piece)</a><br>
+    </div>
+    <a Artwork</a>
+    <div class="tab">
+      <a href="#">Artstation Gallery</a><br>
+    </div>
+  </div>
+
+  --->
 </body>

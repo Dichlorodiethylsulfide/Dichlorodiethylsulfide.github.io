@@ -1,6 +1,6 @@
 body{
     background-color: #1C1C1C;
-    color: #00D1D4;
+    color: #001B62;
 }
 .MainBox{
   display: block;
@@ -51,6 +51,6 @@ body{
 .doubletab{
   margin-left: 80px;
 }
-.reference{
-  color: #001B62;
+.BackgroundText{
+  color: #00D1D4;
 }
