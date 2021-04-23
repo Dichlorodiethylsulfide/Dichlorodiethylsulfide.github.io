@@ -13,3 +13,19 @@ function getContactData()
     contactNodePresent = true;
   }
 }
+
+function StartupButtons()
+{
+  var elementArray = document.getElementsByClassName('Box');
+  for (var i = 0; i < elementArray.length; i++) {
+    var buttonNode = document.createElement('BUTTON');
+    buttonNode.setAttribute('onclick', "OpenProjectPage('" + elementArray[i].getAttribute('id') + "')");
+    buttonNode.innerHTML = "Go to Project Page";
+    elementArray[i].appendChild(buttonNode);
+  }
+}
+
+function OpenProjectPage(ProjectName)
+{
+  window.open("content/projects/" + ProjectName + "/main_page.html");
+}
