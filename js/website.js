@@ -2,6 +2,7 @@ import * as configData from './config.js';
 
 window.onload = Startup;
 window.projectPage = OpenProjectPage;
+window.contactInfo = GetContactData;
 
 var contactNodePresent = false;
 var CurrentDataSet;
@@ -28,7 +29,7 @@ function StartupButtons()
   }
 }
 
-function getContactData()
+function GetContactData()
 {
   if(!contactNodePresent)
   {
