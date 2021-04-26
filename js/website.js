@@ -1,4 +1,32 @@
+import * as configData from './config.js';
+
+window.onload = Startup;
+window.projectPage = OpenProjectPage;
+
 var contactNodePresent = false;
+var CurrentDataSet;
+
+function Startup()
+{
+  if(window.location.href.includes("template"))
+  {
+    TemplateStartup();
+  }
+  else {
+    StartupButtons();
+  }
+}
+
+function StartupButtons()
+{
+  var elementArray = document.getElementsByClassName('Box');
+  for (var i = 0; i < elementArray.length; i++) {
+    var buttonNode = document.createElement('BUTTON');
+    buttonNode.setAttribute('onclick', "window.projectPage('" + elementArray[i].getAttribute('id') + "')");
+    buttonNode.innerHTML = "Go to Project Page";
+    elementArray[i].appendChild(buttonNode);
+  }
+}
 
 function getContactData()
 {
@@ -14,18 +42,23 @@ function getContactData()
   }
 }
 
-function StartupButtons()
+function OpenProjectPage(ProjectName)
 {
-  var elementArray = document.getElementsByClassName('Box');
-  for (var i = 0; i < elementArray.length; i++) {
-    var buttonNode = document.createElement('BUTTON');
-    buttonNode.setAttribute('onclick', "OpenProjectPage('" + elementArray[i].getAttribute('id') + "')");
-    buttonNode.innerHTML = "Go to Project Page";
-    elementArray[i].appendChild(buttonNode);
+  if (typeof(Storage) !== "undefined")
+  {
+    localStorage.setItem("templateData", ProjectName);
+    window.open("content/main_page_template.html");
   }
 }
 
-function OpenProjectPage(ProjectName)
+function TemplateStartup()
 {
-  window.open("content/projects/" + ProjectName + "/main_page.html");
+  CurrentDataSet = JSON.parse(JSON.stringify(configData))["default"];
+  if (typeof(Storage) !== "undefined") {
+    var DataPointer = localStorage.getItem("templateData");
+    document.getElementById("Title").innerHTML = CurrentDataSet[DataPointer];
+  }
+  else {
+    console.log("Site did not load properly");
+  }
 }
