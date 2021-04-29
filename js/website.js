@@ -153,6 +153,20 @@ function CreateButtons()
   }
 }
 
+function CreateGallery(appendTo, projectData)
+{
+  for(var image in projectData["Gallery"])
+  {
+    var aNode = document.createElement("A");
+    aNode.setAttribute("href", projectData["Gallery"][image]);
+    var imgNode = document.createElement("IMG");
+    imgNode.src = projectData["Gallery"][image];
+    imgNode.setAttribute("class", "GalleryIcon");
+    aNode.appendChild(imgNode);
+    appendTo.appendChild(aNode);
+  }
+}
+
 function MainPageStartup()
 {
   CreateCategories();
@@ -206,4 +220,5 @@ function TemplateStartup()
   document.getElementById("Title").innerHTML = DataItem["Title"];
   CreateInformation(document.getElementById("Details"), DataItem);
   CreateLinks(document.getElementById("Links"), DataItem);
+  CreateGallery(document.getElementById("Gallery"), DataItem);
 }

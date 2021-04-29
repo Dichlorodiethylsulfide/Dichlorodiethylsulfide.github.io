@@ -8,10 +8,21 @@ export default
     "Category":"Games",
     "Description":"Based on the operations and functions of a computer, this game uses Assembly x86 style commands to control buildings and towers aimed at defending the main base, the pulsing Clock, from invading attackers.<br><br>Includes a custom scripting langauge for user-generated tutorials, cutscenes and scenarios.",
     "Thumbnail":"",
-    "Gallery":[],
+    "Gallery":
+    [
+      "https://cdnb.artstation.com/p/assets/images/images/034/800/377/medium/r-l-data-miner-2.jpg?1613268139",
+      "https://cdna.artstation.com/p/assets/images/images/034/800/378/medium/r-l-data-miner.jpg?1613268143",
+      "https://cdnb.artstation.com/p/assets/images/images/034/800/379/medium/r-l-mortar-2.jpg?1613268148",
+      "https://cdnb.artstation.com/p/assets/images/images/034/800/381/medium/r-l-mortar.jpg?1613268152",
+      "https://cdnb.artstation.com/p/assets/images/images/034/800/383/medium/r-l-storage-2.jpg?1613268157",
+      "https://cdna.artstation.com/p/assets/images/images/034/800/384/medium/r-l-storage.jpg?1613268163",
+      "https://cdnb.artstation.com/p/assets/images/images/034/800/385/medium/r-l-tower-3.jpg?1613268168",
+      "https://cdna.artstation.com/p/assets/images/images/034/800/386/medium/r-l-tower-4.jpg?1613268172"
+    ],
     "External Links":
     {
-        "Itch.io":"https://dichlorodiethylsulfide.itch.io/automated-abyss"
+        "Itch.io":"https://dichlorodiethylsulfide.itch.io/automated-abyss",
+        "Artstation":"https://wanderingvirus.artstation.com/projects/68DDNr"
     },
   },
   "PB":

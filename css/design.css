@@ -54,3 +54,7 @@ body{
 .BackgroundText{
   color: #00D1D4;
 }
+.GalleryIcon{
+  border: 1px solid black;
+  width:150px;
+}
