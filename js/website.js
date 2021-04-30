@@ -112,12 +112,24 @@ function CreateBox(appendTo, projectData)
   box.setAttribute("class", "Box");
   var h3title = document.createElement("H3");
   h3title.innerHTML = projectData["Title"];
+  CreateThumbnail(box, projectData);
   box.appendChild(h3title);
-  CreateInformation(box, projectData);
+  CreateInformation(box, projectData, false);
   appendTo.appendChild(box);
 }
 
-function CreateInformation(appendTo, projectData)
+function CreateThumbnail(appendTo, projectData)
+{
+  var aNode = document.createElement("A");
+  aNode.href = projectData["Thumbnail"];
+  var thumbnailNode = document.createElement("IMG");
+  thumbnailNode.setAttribute("class", "Thumbnail");
+  thumbnailNode.src = projectData["Thumbnail"];
+  aNode.appendChild(thumbnailNode);
+  appendTo.appendChild(aNode);
+}
+
+function CreateInformation(appendTo, projectData, isLong)
 {
   var informationNode = document.createElement("P");
   informationNode.innerHTML = "Genres:<br>";
@@ -126,6 +138,8 @@ function CreateInformation(appendTo, projectData)
     informationNode.innerHTML += projectData["Genres"][genre] + "<br>";
   }
   informationNode.innerHTML += "<br>Description:<br>" + projectData["Description"];
+  if(isLong)
+    informationNode.innerHTML += "<br><br>" + projectData["Long Description"];
   appendTo.appendChild(informationNode);
   return informationNode;
 }
@@ -218,7 +232,8 @@ function TemplateStartup()
 {
   var DataItem = CurrentDataSet[GetDataFromStorage("ProjectName")];
   document.getElementById("Title").innerHTML = DataItem["Title"];
-  CreateInformation(document.getElementById("Details"), DataItem);
+  CreateThumbnail(document.getElementById("Thumbnail"), DataItem);
+  CreateInformation(document.getElementById("Details"), DataItem, true);
   CreateLinks(document.getElementById("Links"), DataItem);
   CreateGallery(document.getElementById("Gallery"), DataItem);
 }
