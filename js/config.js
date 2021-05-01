@@ -8,7 +8,7 @@ export default
     "Category":"Games",
     "Description":"Based on the operations and functions of a computer, this game uses Assembly x86 style commands to control buildings and towers aimed at defending the main base, the pulsing Clock, from invading attackers.<br><br>Includes a custom scripting langauge for user-generated tutorials, cutscenes and scenarios.",
     "Long Description":"In a newly created universe, war always finds its way inside. Races of all kinds take part. To achieve glory, to be recognised by those they worship. You must defend all species of the Xeno-Pantheon, to protect the sacred vessels that converse with your gods. Prophets and Messiahs alike. The Dryands invade to bring about their evil, wrong ways. Their machines are cold and heartless, so we must fight with our own. After all, fighting fire with fire is only wrong if their fire succeeds. As long as their soil is more scorched and charred than ours, then  our fight was worth it.<br><br> 'We smite you down with hellfire with the power of Gods you cannot even conceive of' - Uilenif Tentael, the Dark Seraphim, Herald of the Abyss.<br><br>Automated Abyss is a strategy game based on automation and the x86 instruction set (made in Unity). You must defend your outposts on this unknown world, fighting for control over the universe itself, as you attempt to conquer it all. You must deploy buildings to build up your outposts from the main building, the Clock all the way through resource generators like the Data Miner and defensive buildings like the Tower and Mortar. The Clock pulses like a CPU, allowing each building to execute its own instructions whether that be to control data flow, generate extra resources or shoot the enemies as they come.",
-    "Thumbnail":"../content/local_cache/AA_TitleCard.png",
+    "Thumbnail":"defaultpath",
     "Gallery":
     [
       "https://cdnb.artstation.com/p/assets/images/images/034/800/377/medium/r-l-data-miner-2.jpg?1613268139",
@@ -38,7 +38,7 @@ export default
     "Category":"Games",
     "Description":"",
     "Long Description":"",
-    "Thumbnail":"../content/local_cache/PB_TitleCard.png",
+    "Thumbnail":"defaultpath",
     "Gallery":[],
     "External Links":
     {
@@ -53,7 +53,7 @@ export default
     "Category":"Games",
     "Description":"",
     "Long Description":"",
-    "Thumbnail":"../content/local_cache/SI_TitleCard.png",
+    "Thumbnail":"defaultpath",
     "Gallery":[],
     "External Links":
     {
@@ -68,7 +68,7 @@ export default
     "Category":"Games",
     "Description":"",
     "Long Description":"",
-    "Thumbnail":"../content/local_cache/PH_TitleCard.png",
+    "Thumbnail":"defaultpath",
     "Gallery":[],
     "External Links":
     {
@@ -83,7 +83,7 @@ export default
     "Category":"Visual Novel",
     "Description":"",
     "Long Description":"",
-    "Thumbnail":"",
+    "Thumbnail":"defaultpath",
     "Gallery":[],
     "External Links":
     {
@@ -98,7 +98,7 @@ export default
     "Category":"Application",
     "Description":"",
     "Long Description":"",
-    "Thumbnail":"",
+    "Thumbnail":"defaultpath",
     "Gallery":[],
     "External Links":{},
   },
@@ -110,7 +110,7 @@ export default
     "Category":"Application",
     "Description":"",
     "Long Description":"",
-    "Thumbnail":"",
+    "Thumbnail":"defaultpath",
     "Gallery":[],
     "External Links":{},
   },
@@ -122,7 +122,7 @@ export default
     "Category":"Application",
     "Description":"",
     "Long Description":"",
-    "Thumbnail":"",
+    "Thumbnail":"../content/local_cache/YAGE_TitleCard.gif",
     "Gallery":[],
     "External Links":{},
   },
@@ -134,7 +134,7 @@ export default
     "Category":"Application",
     "Description":"",
     "Long Description":"",
-    "Thumbnail":"",
+    "Thumbnail":"defaultpath",
     "Gallery":[],
     "External Links":{},
   },
@@ -146,7 +146,7 @@ export default
     "Category":"Artwork",
     "Description":"",
     "Long Description":"",
-    "Thumbnail":"",
+    "Thumbnail":"defaultpath",
     "Gallery":[],
     "External Links":{},
   },
@@ -158,7 +158,7 @@ export default
     "Category":"Substantial Piece",
     "Description":"",
     "Long Description":"",
-    "Thumbnail":"",
+    "Thumbnail":"defaultpath",
     "Gallery":[],
     "External Links":{},
   }

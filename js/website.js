@@ -124,7 +124,12 @@ function CreateThumbnail(appendTo, projectData)
   aNode.href = projectData["Thumbnail"];
   var thumbnailNode = document.createElement("IMG");
   thumbnailNode.setAttribute("class", "Thumbnail");
-  thumbnailNode.src = projectData["Thumbnail"];
+  if(projectData["Thumbnail"] === "defaultpath"){
+    thumbnailNode.src = "../content/local_cache/" + projectData["Abbreviation"] + "_TitleCard.png";
+  }
+  else {
+    thumbnailNode.src = projectData["Thumbnail"];
+  }
   aNode.appendChild(thumbnailNode);
   appendTo.appendChild(aNode);
 }
