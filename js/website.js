@@ -125,7 +125,7 @@ function CreateThumbnail(appendTo, projectData)
   var thumbnailNode = document.createElement("IMG");
   thumbnailNode.setAttribute("class", "Thumbnail");
   if(projectData["Thumbnail"] === "defaultpath"){
-    thumbnailNode.src = "../content/local_cache/" + projectData["Abbreviation"] + "_TitleCard.png";
+    thumbnailNode.src = "../content/local_cache/title_cards/" + projectData["Abbreviation"] + "_TitleCard.png";
   }
   else {
     thumbnailNode.src = projectData["Thumbnail"];
@@ -145,6 +145,9 @@ function CreateInformation(appendTo, projectData, isLong)
   informationNode.innerHTML += "<br>Description:<br>" + projectData["Description"];
   if(isLong)
     informationNode.innerHTML += "<br><br>" + projectData["Long Description"];
+  else if (projectData["Case Study"] !== undefined) {
+    informationNode.innerHTML += "<br><br>" + "Case Study Included!";
+  }
   appendTo.appendChild(informationNode);
   return informationNode;
 }
@@ -233,6 +236,27 @@ function GetDataFromStorage(Name)
   return "NO_DATA";
 }
 
+function CreateCaseStudy(projectData)
+{
+  var title = document.getElementById("CS Title");
+  var caseStudyBody = document.getElementById("Case Study");
+  if(projectData["Case Study"] === undefined)
+  {
+    document.body.removeChild(title);
+    document.body.removeChild(caseStudyBody);
+  }
+  else
+  {
+    var content = projectData["Case Study"];
+    var para = document.createElement("P");
+    for(var info in projectData["Case Study"])
+    {
+      para.innerHTML += info + ":<br>" + projectData["Case Study"][info] + "<br><br>";
+    }
+    caseStudyBody.appendChild(para);
+  }
+}
+
 function TemplateStartup()
 {
   var DataItem = CurrentDataSet[GetDataFromStorage("ProjectName")];
@@ -241,4 +265,5 @@ function TemplateStartup()
   CreateInformation(document.getElementById("Details"), DataItem, true);
   CreateLinks(document.getElementById("Links"), DataItem);
   CreateGallery(document.getElementById("Gallery"), DataItem);
+  CreateCaseStudy(DataItem);
 }
