@@ -210,7 +210,7 @@ export default
     ],
     "External Links":
     {
-      "GitHub / Source / Project files":"#"
+      "GitHub / Source / Project files":"#",
       "APK Download":"#"
     },
   }
