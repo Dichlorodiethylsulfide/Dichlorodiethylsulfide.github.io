@@ -1,6 +1,7 @@
 body{
     background-color: #1C1C1C;
-    color: #001B62;
+    /*color: #001B62;*/
+    color: #000000;
 }
 .MainBox{
   display: block;

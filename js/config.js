@@ -91,10 +91,11 @@ export default
       "../content/local_cache/gallery/PH_1.png",
       "../content/local_cache/gallery/PH_2.png",
       "../content/local_cache/gallery/PH_3.png",
+      "../content/local_cache/gallery/PH_4.png",
     ],
     "External Links":
     {
-      "Work In Progress (Not Available)":"#",
+      "Work In Progress":"#",
     },
   },
   "RIP":
@@ -104,7 +105,7 @@ export default
     "Genres":["2D", "Top-down", "Thriller", "Slasher"],
     "Category":"Visual Novel",
     "Description":"A visual novel created using the fungus plugin in Unity. Based on the 80s Thriller / Slasher genre.",
-    "Long Description":"Excerpt:",
+    "Long Description":"Excerpt: Laura placed her knife and fork together on an empty plate and looked up. 'Anyone fancy pudding?' she asked. 'I’m good,' said Graham, sitting back with a half full glass of wine in his hand. Laura glanced at her daughter. 'What about you, Chloe? There’s still some of your favourite left, cherry pie and ice-cream.' Chloe shook her head without making eye contact and continued to pick at what remained of her food with a loosely held fork. 'You alright Chloe?' asked her father, 'You look a little subdued this evening. Things okay at school? Homework getting you down?' Chloe fiddled with a few strands of her long blonde hair before looking Graham straight in the face. 'No, it’s not my homework, it’s what might happen while I’m doing it,' she stormed. Before her father had a chance to respond, she continued. 'Doesn’t it worry you, what happened to Sonja? This is the second night since she went missing. Her mum last saw her going to her bedroom to do schoolwork. How can anyone be abducted from their own room?' Graham nodded. 'Yes, I can see how that would concern you, but there’s likely to be more to it. From what I’ve heard, neither of her parents were actually at home when she disappeared.'",
     "Thumbnail":"defaultpath",
     "Gallery":
     [
@@ -128,27 +129,15 @@ export default
     "Thumbnail":"defaultpath",
     "Gallery":
     [
-
+      "../content/local_cache/gallery/AICPG_1.png",
+      "../content/local_cache/gallery/AICPG_2.png",
+      "../content/local_cache/gallery/AICPG_3.png",
+      "../content/local_cache/gallery/AICPG_4.gif",
     ],
     "External Links":
     {
-        "Work In Progress (Not Available)":"#",
+        "Work In Progress --- See Automated Abyss for working example (within game)":"#",
     },
-  },
-  "PM":
-  {
-    "Abbreviation":"PM",
-    "Title":"Password Manager",
-    "Genres":["Console", "Tool", "Passwords"],
-    "Category":"Application",
-    "Description":"",
-    "Long Description":"",
-    "Thumbnail":"defaultpath",
-    "Gallery":
-    [
-
-    ],
-    "External Links":{},
   },
   "YAGE":
   {
@@ -156,14 +145,17 @@ export default
     "Title":"YetAnotherGameEngine",
     "Genres":["2D", "Game Engine", "SFML"],
     "Category":"Application",
-    "Description":"",
-    "Long Description":"",
+    "Description":"A 2D game engine designed for approaching problems from multiple angles. Created using SFML and C++ with alternative implementations coming soon using OpenGL.",
+    "Long Description":"Currently in Pre-Alpha. This is a prototype tool for creating games as well as acting as a meta-game engine (a game engine that builds game engines). This is primarily used as a learning / educational tool for myself to learn C++ as well as embedding and controlling the graphicaly capabilities on my Arch Linux system. Windows builds are not currently available but are expected to be released once class declarations for base objects are finalised. As it stands, it currently takes simple inputs, such as keystrokes, and allows the user to map them to functions, such as movement calls.<br><br>Since this only uses SFML and hand-made libraries, the engine performs incredibly efficiently. Using only:<br>30MB RAM<br>2% CPU Usage<br>2MB VRAM (GPU).<br><br>Even while under load of handling inputs and game object generation.",
     "Thumbnail":"../content/local_cache/title_cards/YAGE_TitleCard.gif",
     "Gallery":
     [
-
+      "../content/local_cache/gallery/YAGE_1.webm",
     ],
-    "External Links":{},
+    "External Links":
+    {
+      "GitHub":"https://github.com/Dichlorodiethylsulfide/YetAnotherGameEngine"
+    },
   },
   "VMPH":
   {
@@ -171,14 +163,17 @@ export default
     "Title":"Virtual Machine Python Handler",
     "Genres":["Virtual Machine", "Python", "Client-Server"],
     "Category":"Application",
-    "Description":"",
-    "Long Description":"",
+    "Description":"A prototype python application that allows virtual machines to communicate, using sockets and pickle'd message objects, with other virtual machines.",
+    "Long Description":"This is a lightweight application to allow a server virtual machine, or host, to execute commands on and transmit data to client virtual machines. This was developed alongside the server farm revolution in technology, where big tech companies create nested virtual machine networks inside of very large server setups to allows as many people as possible the ability to use / take advantage of a server. This application, therefore, allows the server to send data to a listening client without needing to interact with the client itself. The client self-executes the commands based on parameters and additional data sent by the server. The biggest use of which would be to execute a collection of commands on all virtual machines at once.",
     "Thumbnail":"defaultpath",
     "Gallery":
     [
-
+      "../content/local_cache/gallery/VMPH_1.png",
     ],
-    "External Links":{},
+    "External Links":
+    {
+      "GitHub":"https://github.com/Dichlorodiethylsulfide/Python-Virtual-Machine-Messaging"
+    },
   },
   "AG":
   {
@@ -186,14 +181,19 @@ export default
     "Title":"Artstation Gallery",
     "Genres":["Artwork", "Gallery", "Showcase", "2D", "3D"],
     "Category":"Artwork",
-    "Description":"",
-    "Long Description":"",
+    "Description":"My Artstation Profile",
+    "Long Description":"A place where I can showcase the 2D and 3D designs for some of my current and upcoming games.",
     "Thumbnail":"defaultpath",
     "Gallery":
     [
-
+      "../content/local_cache/gallery/AG_1.png",
+      "../content/local_cache/gallery/AG_2.png",
     ],
-    "External Links":{},
+    "External Links":
+    {
+      "Artstation Profile Page":"https://www.artstation.com/wanderingvirus",
+      "Artstation Portfolio Page (same as profile page but formatted in a portfolio style)":"https://wanderingvirus.artstation.com"
+    },
   },
   "SH":
   {
@@ -201,13 +201,17 @@ export default
     "Title":"Shopping Helper",
     "Genres":["Mobile App", "Android", "iOS", "Shopping", "Assistant"],
     "Category":"Substantial Piece",
-    "Description":"",
-    "Long Description":"",
+    "Description":"My substantial piece.<br><br>A tool for helping customers create / organise shopping lists.",
+    "Long Description":"Since the advent of the coronavirus pandemic, many, if not all, customers have resorted to using their phones when shopping whether in the store or online. This tool enables people to track current shopping lists, tick off items they've already bought or just browse the catalog of items from many different stores. The database is fully functional and includes an the potential for expansion as new supermarkets / stores can be added as new items are posted on their respective shopping sites.",
     "Thumbnail":"defaultpath",
     "Gallery":
     [
 
     ],
-    "External Links":{},
+    "External Links":
+    {
+      "GitHub / Source / Project files":"#"
+      "APK Download":"#"
+    },
   }
 }

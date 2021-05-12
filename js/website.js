@@ -157,7 +157,8 @@ function CreateLinks(appendTo, projectData)
   for(var link in projectData["External Links"])
   {
     var aNode = document.createElement("A");
-    aNode.setAttribute("href", projectData["External Links"][link]);
+    if(projectData["External Links"][link] !== "#")
+      aNode.setAttribute("href", projectData["External Links"][link]);
     aNode.innerHTML = link + "<br>";
     appendTo.appendChild(aNode);
     console.log(link);
@@ -181,10 +182,16 @@ function CreateGallery(appendTo, projectData)
   {
     var aNode = document.createElement("A");
     aNode.setAttribute("href", projectData["Gallery"][image]);
-    var imgNode = document.createElement("IMG");
-    imgNode.src = projectData["Gallery"][image];
-    imgNode.setAttribute("class", "GalleryIcon");
-    aNode.appendChild(imgNode);
+    var galleryNode;
+    if(projectData["Gallery"][image].includes("png") || projectData["Gallery"][image].includes("jpg") || projectData["Gallery"][image].includes("gif")){
+      galleryNode = document.createElement("IMG");
+    }
+    else{
+      galleryNode = document.createElement("VIDEO");
+    }
+    galleryNode.src = projectData["Gallery"][image];
+    galleryNode.setAttribute("class", "GalleryIcon");
+    aNode.appendChild(galleryNode);
     appendTo.appendChild(aNode);
   }
 }
