@@ -21,7 +21,8 @@ export default
       "https://cdna.artstation.com/p/assets/images/images/034/800/386/medium/r-l-tower-4.jpg?1613268172",
       "https://img.itch.zone/aW1hZ2UvODEyNjc3LzQ5NzE3NTYucG5n/original/TnSaqt.png",
       "https://img.itch.zone/aW1hZ2UvODEyNjc3LzQ5NzE4MDIucG5n/original/mH%2BdYW.png",
-      "https://img.itch.zone/aW1hZ2UvODEyNjc3LzQ5NzE4MDMucG5n/original/DfXzGz.png"
+      "https://img.itch.zone/aW1hZ2UvODEyNjc3LzQ5NzE4MDMucG5n/original/DfXzGz.png",
+      "../content/local_cache/gallery/AA_Promo.mp4"
     ],
     "External Links":
     {
@@ -33,7 +34,7 @@ export default
     {
       "Project Purpose":"Initially, the project was created as the main deliverable in a university assignment. However, it quickly grew into a separate game and education tool after it was handed in. This is because it contains various strategic gameplay elements along with a potential for endless replayability. It was published on Itch.io as part of the assignment but remained there for the foreseeable future as a game to be played by the masses as well as a testament to my programming ability. The educational aspects came as a result of how the game plays, with the game's main mechanic being focused on using custom-made assembly-like commands to run real-time strategy scenarios, it became apparent that this could not only be a fun, entertaining game but also a method of teaching how computers communicate on a very low programming level. After all, to fundamentally understand how computers work, outside of learning about binary, you must learn the computing language of Assembly.",
       "Workflow Approach":"My approach to making such a complex piece of programming and graphical design was to create a simplified version, a prototype, of what I wanted the end result to immitate. This was done by creating a 2D version of the game and implementing the main game mechanics, such as having the assembly commands be translated into movement of data between towers / buildings. After I created the proof of concept, I was able to build confidence and even greater dedication to finalising the project, creating what you see as the end result. All of this was accomplished in C# (made within Unity) and used a variety of programming paradigms and techniques.",
-      "Positive Outcomes":"The project received extremely positive feedback, both from the examiners / markers of the project as well as from the university as a whole. I later even created a promotional video for the project as required by the university to send it off and share with prospective students. Personally, I also learnt a great deal more about C#, programming and game engines in general after creating this project, from tinkering with using separate threads to run commands to using unity's own coroutine system and even learning more about graphics (and making available the option to change graphics quality) and how to efficiently pass information between classes to ensure the game did not stutter when handling custom commands.",
+      "Positive Outcomes":"The project received extremely positive feedback, both from the examiners / markers of the project as well as from the university as a whole. I later even created a promotional video (included in the gallery) for the project as required by the university to send it off and share with prospective students. Personally, I also learnt a great deal more about C#, programming and game engines in general after creating this project, from tinkering with using separate threads to run commands to using unity's own coroutine system and even learning more about graphics (and making available the option to change graphics quality) and how to efficiently pass information between classes to ensure the game did not stutter when handling custom commands.",
     },
   },
   "PB":
@@ -201,17 +202,27 @@ export default
     "Title":"Shopping Helper",
     "Genres":["Mobile App", "Android", "iOS", "Shopping", "Assistant"],
     "Category":"Substantial Piece",
-    "Description":"My substantial piece.<br><br>A tool for helping customers create / organise shopping lists.",
-    "Long Description":"Since the advent of the coronavirus pandemic, many, if not all, customers have resorted to using their phones when shopping whether in the store or online. This tool enables people to track current shopping lists, tick off items they've already bought or just browse the catalog of items from many different stores. The database is fully functional and includes an the potential for expansion as new supermarkets / stores can be added as new items are posted on their respective shopping sites.",
+    "Description":"My substantial portfolio piece.<br><br>A tool for helping customers create / organise shopping lists. <br><br>Uses a custom database and built for Android.",
+    "Long Description":"Since the advent of the coronavirus pandemic, many, if not all, customers have resorted to using their phones when shopping whether in the store or online. This tool enables people to track current shopping lists, tick off items they've already bought or just browse the catalog of items from many different stores. The database is fully functional and includes an the potential for expansion as new supermarkets / stores can be added as new items are posted on their respective shopping sites.<br><br>I faced numerous programming challenges along the way as I had not previously worked on a mobile app, as well as this the code I had prepared from previous projects that use databases did not work on the mobile deployment and so I created a custom database engine with C#. This database uses the disconnected model by reading the database initially, loading it into memory, and while the app is open, perform all functions on the data in memory before, finally saving it all once the app is closed or the data is saved manually by the user.",
     "Thumbnail":"defaultpath",
     "Gallery":
     [
-
+      "../content/local_cache/gallery/SH_1.png",
+      "../content/local_cache/gallery/SH_2.png",
+      "../content/local_cache/gallery/SH_3.png",
+      "../content/local_cache/gallery/SH_4.png",
+      "../content/local_cache/gallery/SH_5.png",
+      "../content/local_cache/gallery/SH_6.png",
+      "../content/local_cache/gallery/SH_7.png",
+      "../content/local_cache/gallery/SH_8.png",
+      "../content/local_cache/gallery/SH_9.png",
+      "../content/local_cache/gallery/SH_10.png",
+      "../content/local_cache/gallery/SH_11.png",
     ],
     "External Links":
     {
-      "GitHub / Source / Project files":"#",
-      "APK Download":"#"
+      "GitHub / Source / Project files":"https://universityofbedfordshire-my.sharepoint.com/:u:/g/personal/riki_lowe_study_beds_ac_uk/Ealyc7L1HwNHkIXOU83W-JYBAbPvrwbNdJ0draAIn3Y4Zg?e=Lcv6Ah",
+      "APK Download":"https://universityofbedfordshire-my.sharepoint.com/:u:/g/personal/riki_lowe_study_beds_ac_uk/EclwrBSOmGdEqEwyegRRMN4BiX_O0Vjq5Iyi5gyIU9C9Gg?e=UquRGo"
     },
   }
 }
