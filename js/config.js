@@ -203,7 +203,7 @@ export default
     "Genres":["Mobile App", "Android", "iOS", "Shopping", "Assistant"],
     "Category":"Substantial Piece",
     "Description":"My substantial portfolio piece.<br><br>A tool for helping customers create / organise shopping lists. <br><br>Uses a custom database and built for Android.",
-    "Long Description":"Since the advent of the coronavirus pandemic, many, if not all, customers have resorted to using their phones when shopping whether in the store or online. This tool enables people to track current shopping lists, tick off items they've already bought or just browse the catalog of items from many different stores. The database is fully functional and includes an the potential for expansion as new supermarkets / stores can be added as new items are posted on their respective shopping sites.<br><br>I faced numerous programming challenges along the way as I had not previously worked on a mobile app, as well as this the code I had prepared from previous projects that use databases did not work on the mobile deployment and so I created a custom database engine with C#. This database uses the disconnected model by reading the database initially, loading it into memory, and while the app is open, perform all functions on the data in memory before, finally saving it all once the app is closed or the data is saved manually by the user.",
+    "Long Description":"Since the advent of the coronavirus pandemic, many, if not all, customers have resorted to using their phones when shopping whether in the store or online. This tool enables people to track current shopping lists, tick off items they've already bought or just browse the catalog of items from many different stores. The database is fully functional and includes an the potential for expansion as new supermarkets / stores can be added as new items are posted on their respective shopping sites.<br><br>I faced numerous programming challenges along the way as I had not previously worked on a mobile app, as well as this the code I had prepared from previous projects that use databases did not work on the mobile deployment and so I created a custom database engine with C#. This database uses the disconnected model by reading the database initially, loading it into memory, and while the app is open, perform all functions on the data in memory before, finally saving it all once the app is closed or the data is saved manually by the user.<br><br> The database for all items is also stored on this portfolio, publically and online, the app can get the latest version whenever it opens. (https://dichlorodiethylsulfide.github.io/content/local_cache/database/Items.txt)",
     "Thumbnail":"defaultpath",
     "Gallery":
     [
@@ -221,8 +221,8 @@ export default
     ],
     "External Links":
     {
-      "GitHub / Source / Project files":"https://universityofbedfordshire-my.sharepoint.com/:u:/g/personal/riki_lowe_study_beds_ac_uk/Ealyc7L1HwNHkIXOU83W-JYBAbPvrwbNdJ0draAIn3Y4Zg?e=Lcv6Ah",
-      "APK Download":"https://universityofbedfordshire-my.sharepoint.com/:u:/g/personal/riki_lowe_study_beds_ac_uk/EclwrBSOmGdEqEwyegRRMN4BiX_O0Vjq5Iyi5gyIU9C9Gg?e=UquRGo"
+      "GitHub / Source / Project files":"https://universityofbedfordshire-my.sharepoint.com/:u:/g/personal/riki_lowe_study_beds_ac_uk/EfNTBXjrtGBJjKdLzC7-ab4Bn9bV8d8zR5ehfVkO0o-QYg?e=FpbImH",
+      "APK Download":"https://universityofbedfordshire-my.sharepoint.com/:u:/g/personal/riki_lowe_study_beds_ac_uk/ERW7HxAu6uVGg2T1dULJ6moB5FMEs_cmuMAYpVtaqvi99A?e=F2loU3"
     },
   }
 }
