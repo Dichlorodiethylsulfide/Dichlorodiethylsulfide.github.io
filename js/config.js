@@ -207,17 +207,17 @@ export default
     "Thumbnail":"defaultpath",
     "Gallery":
     [
-      "../content/local_cache/gallery/SH_1.png",
-      "../content/local_cache/gallery/SH_2.png",
-      "../content/local_cache/gallery/SH_3.png",
-      "../content/local_cache/gallery/SH_4.png",
-      "../content/local_cache/gallery/SH_5.png",
-      "../content/local_cache/gallery/SH_6.png",
-      "../content/local_cache/gallery/SH_7.png",
-      "../content/local_cache/gallery/SH_8.png",
-      "../content/local_cache/gallery/SH_9.png",
-      "../content/local_cache/gallery/SH_10.png",
-      "../content/local_cache/gallery/SH_11.png",
+      "../content/local_cache/gallery/SH_1.jpg",
+      "../content/local_cache/gallery/SH_2.jpg",
+      "../content/local_cache/gallery/SH_3.jpg",
+      "../content/local_cache/gallery/SH_4.jpg",
+      "../content/local_cache/gallery/SH_5.jpg",
+      "../content/local_cache/gallery/SH_6.jpg",
+      "../content/local_cache/gallery/SH_7.jpg",
+      "../content/local_cache/gallery/SH_8.jpg",
+      "../content/local_cache/gallery/SH_9.jpg",
+      "../content/local_cache/gallery/SH_10.jpg",
+      "../content/local_cache/gallery/SH_11.jpg",
     ],
     "External Links":
     {
