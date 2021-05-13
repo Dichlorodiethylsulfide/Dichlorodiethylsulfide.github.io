@@ -4,3 +4,4 @@ ROW: 1|	Apple|	0.625|	Waitrose|	Grocery|	Pink Lady|	4|	4
 ROW: 2|	Banana|	0.15|	Waitrose|	Grocery, Fruit|	Fairtrade|	1|	1
 ROW: 3|	Grapes| 2.00|	Waitrose|	Grocery, Fruit|	Seedless|	500|	1
 ROW: 4|	FakeItem| 99.00|	Norose|	WhatIsAFruit|	Seedless|	5000|	1
+ROW: 5|	FakeItem| 999.00|	Norose|	WhatIsAFruit|	Seedless|	5000|	1
